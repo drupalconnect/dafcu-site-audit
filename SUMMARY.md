@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [Performance Settings](performance.md)
+* [Performance Settings](performancemd.md)
 
