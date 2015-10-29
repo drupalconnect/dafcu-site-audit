@@ -9,5 +9,5 @@
    * [Content Types](content_types.md)
        * [Page [page]](page.md)
            * [Configuration](page_configuration.md)
-           * Fields
+           * [Fields](page_fields.md)
 
