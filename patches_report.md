@@ -5,6 +5,7 @@ Patched modules/core that need updates:
 * location
 * panels
 * tb_megamenu
+
 ---
 
 ```
