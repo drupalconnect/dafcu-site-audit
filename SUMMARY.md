@@ -8,5 +8,5 @@
 * [Site Building](site_building.md)
    * [Content Types](content_types.md)
        * [Page [page]](page.md)
-           * Configuration
+           * [Configuration](page_configuration.md)
 
