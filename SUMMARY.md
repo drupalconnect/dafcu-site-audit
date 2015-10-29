@@ -16,4 +16,5 @@
    * [Taxonomy](taxonomy.md)
    * [Views](views.md)
    * [Panels](panels.md)
+   * Custom Blocks
 
