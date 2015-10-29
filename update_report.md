@@ -1,6 +1,7 @@
 # Update Report
 
-```Update information last refreshed: Tue, 10/20/2015 - 18:53
+```
+Update information last refreshed: Tue, 10/20/2015 - 18:53
  Name                                           Installed Version     Proposed version  Message          
  Drupal                                         7.39                  7.40              Update available 
  Administration menu (admin_menu)               7.x-3.0-rc4           7.x-3.0-rc5       Update available 
