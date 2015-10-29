@@ -4,4 +4,4 @@ The modules, themes and libraries are in "sites/all". The public files for the s
 
 Drupal core for this site is a couple versions behind and should be updated to the latest version. The most recent release is 7.41 (which will change) and should be applied to maintain a secure site.
 
-Out-of-date modules should also be updated (see [Update Report](update_report.md)). Any patches will need to be reapplied, of course, as needed (see [Patches Report](patches_report.md). Note that some modules are a "dev" version or are not reporting a version. These should be updated to more current versions.
+Out-of-date modules should also be updated (see [Update Report](update_report.md)). Any patches will need to be reapplied, of course, as needed (see [Patches Report](patches_report.md).
