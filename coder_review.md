@@ -1,4 +1,4 @@
-# Coder Report
+# Code Report
 
 ```
 modules/block/block.module:
