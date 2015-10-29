@@ -1,6 +1,6 @@
 # Overview
 
-The modules and themes and libraries are in "sites/default". The public files for the site are in "sites/default/files", although there is a "sites/default/files.old" directory that may be taking up unnecessary disk space.
+The modules, themes and libraries are in "sites/default". The public files for the site are in "sites/default/files", although there is a "sites/default/files.old" directory that may be taking up unnecessary disk space.
 
 Drupal core for this site is a couple versions behind and should be updated to the latest version. The most recent release is 7.41 (which will change) and should be applied to this or any other site to maintain a secure site.
 
