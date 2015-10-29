@@ -20,6 +20,6 @@
    * [Panels](panels.md)
    * [Custom Blocks](custom_blocks.md)
    * [Menus](menus.md)
-* [Raw results](Appendix.md)
+* [Raw results](appendix.md)
    * [Raw Results](raw_results.md)
 
