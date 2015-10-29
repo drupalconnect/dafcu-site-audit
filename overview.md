@@ -1,6 +1,6 @@
 # Site Overview
 
-The following are a review of best practices.
+The following are an overview of best practices.
 
 The modules, themes and libraries are in "sites/default". The public files for the site are in "sites/default/files", although there is a "sites/default/files.old" directory that may be taking up unnecessary disk space.
 
