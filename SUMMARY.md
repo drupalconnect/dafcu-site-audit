@@ -22,6 +22,5 @@
    * [Menus](menus.md)
 * [Appendix](appendix.md)
    * [Raw Results](raw_results.md)
-       * [Site Audit](reports/site_audit.html)
        * [Site Audit Report](site_audit.md)
 
