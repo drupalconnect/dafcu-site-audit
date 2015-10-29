@@ -1,3 +1,3 @@
 # Configuration
 
-Published by default.  Comments disabled.
+Published by default. Comments disabled.
