@@ -1,4 +1,4 @@
-DAFCU Site Audit
+Introduction
 =======
 
 We're conducting this audit on the Yum Canada development site (as an example of a client site).  Other UMI client websites will have somewhat different configurations.  Other client sites will need additional review if those differences impact requested support services. Drupal Connect will indicate when that is the case and how it affects proposed engineering solutions/estimates. This is a great start to understand design patterns, configuration methods, and frequently used components.  
