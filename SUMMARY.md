@@ -4,7 +4,6 @@
 * [Overview](overview.md)
 * [Actionable Recommendations](actionable_recommendations.md)
    * [Performance Settings](performance_settings.md)
-   * [Server Configuration](server_configuration.md)
    * [Security Concerns](security_concerns.md)
 * [Appendix](appendix.md)
    * [Raw Results](raw_results.md)
