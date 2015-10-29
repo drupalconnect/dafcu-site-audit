@@ -15,4 +15,5 @@
            * [Fields](webform_fields.md)
    * [Taxonomy](taxonomy.md)
    * [Views](views.md)
+   * Panels
 
