@@ -7,7 +7,7 @@
    * [Server Configuration](server_configuration.md)
    * [Security Concerns](security_concerns.md)
    * [Themes](themes.md)
-* [Site Building](site_building.md)
+* [Performance](performance.md)
    * [Content Types](content_types.md)
        * [Page [page]](page.md)
            * [Configuration](page_configuration.md)
