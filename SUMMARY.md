@@ -7,5 +7,4 @@
 * [Themes](themes.md)
 * [Site Building](site_building.md)
    * Content Types
-* [Content Types](content_types.md)
 
