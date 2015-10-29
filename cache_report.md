@@ -84,6 +84,8 @@ block
  views-our_experts_home_loans-block            Our Experts - Home Loans                             DRUPAL_NO_CACHE
  views-rates-block                             View: Rates: Homepage Block                          DRUPAL_NO_CACHE
  views-rates-block_1                           View: Rates: All Rates                               DRUPAL_NO_CACHE
+```
+```
 system
 ----------------------------------------------------------------------------------------------------
  Variable                      Value
@@ -94,6 +96,8 @@ system
  cache_default_class           <not set>
  cache_lifetime                5 min
  page_cache_maximum_age        3 hours
+```
+```
 views
 ----------------------------------------------------------------------------------------------------
  View                                      Display  Status    Plugin  Results  Output  Block cache
@@ -142,6 +146,8 @@ views
  visitor_log_lite                          default  Disabled  none    0        0       N/A
  visitor_log_lite                          block_1  Disabled  none    0        0       Off
  order_locations                           default  Disabled  none    0        0       N/A
+```
+```
 panels
 ----------------------------------------------------------------------------------------------------
  Panel           Pane                                    Region          Cache  Lifetime  Granularity
