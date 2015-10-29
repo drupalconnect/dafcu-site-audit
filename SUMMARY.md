@@ -4,4 +4,5 @@
 * [Performance Settings](performance.md)
 * [Server Configuration](server_configuration.md)
 * [Security Concerns](security_concerns.md)
+* Themes
 
