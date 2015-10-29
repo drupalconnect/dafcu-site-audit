@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Performance settings](performance.md)
+* [Performance Settings](performance.md)
    * [Test](test.md)
 
