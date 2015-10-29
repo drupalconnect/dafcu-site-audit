@@ -1,15 +1,2 @@
 # Server Configuration
 
-The server appears to utilize Cpanel for configuration and the Red Hat 4.1.2-14 distribution version (Linux kernel 2.6.18).  Unsure if this is up-to-date or a security concern, but worth reviewing.  Where is this server hosted?  It appears to be GoDaddy or an affiliated host.
-
-It does not appear that APC, Memcached, Redis, or Pressflow/Varnish/Nginx are being used for caching mechanisms, which are advisable for better site performance.  This would require further review and discussion to determine ideal solutions.
-
-PHP 5.2.16 is being used, which is a security concern, both because it is out-of-date in the 5.2.x series, and because that series was discontinued in 2011.  The current supported version of PHP is 5.5.x (ending July 10th, 2016) and higher.  Drupal 6 will have issues with PHP 5.3.x and higher, which is another reason to begin planning a migration to a newer version of Drupal.  The PHP memory_limit is set to 240MB, which could be reviewed for better optimization.  The max_execution_time is set to 600 seconds, which is rather high, but might just be a development site value.  Ideally this should be lowered to 300 seconds or less, based on a deeper review of performance.  The post_max_size and upload_max_filesize are both good with 55MB and 50MB values, respectively.  This can be increased if file uploads are expected to be larger.  The gd library is available, which can help with image processing for things like thumbnails.  It does not appear that there are PHP debugging or profiling tools installed/enabled on this server.
-
-Neither the version of Apache being used nor the enabled Apache modules/addons could be determined.  Given the age of other server components, these are also likely out-of-date and possibly insecure.
-
-It does not appear that SSL is enabled on this site.  SSL should always be enforced on e-commerce websites.  Other types of websites also benefit to avoid transmission of authentication credentials using plain-text (read: dangerous on public networks).  SSL should also be updated to the latest version to avoid exploits like Heartbleed.  The version that PHP is reporting is OpenSSL 0.9.8e-fips-rhel5 01 Jul 2008, which is not secure.
-
-MySQL version 5.1.62 is installed on the server.  This version is no longer being updated by Oracle (as of December 2013), meaning new releases are now focused on newer versions.  It is recommended that this be upgraded to 5.5 or higher (after backups and testing).  There is no access to MySQL or mysqldump from the command-line interface.  A database dump for each site would be good for a general review.
-
-The site directory does not contain a Git repository, so this might just be a deployment.  Drush does not appear to be installed on the server, which can be helpful for debugging and site maintenance tasks.

@@ -1,3 +1,0 @@
-# Site Building
-
-There isn't much content on this dev site, so it is difficult to say how well various Views and other components are behaving. The user "jonathan" does not have full privileges on this website (e.g. cannot view Ubercart's product classes settings).  This is also a multi-site with a parent site that shares users, roles, sessions, and authmap tables with three subsites: Pizza Hut, KFC, and Taco Bell. Each sub-site has its own theme, content, and configuration.
