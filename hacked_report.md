@@ -1,8 +1,6 @@
 # Hacked Report
 
 ```
-Rebuilding Hacked! report
-Done.
  Title                          Name                        Version               Status     Changed  Deleted 
  CKEditor Styles (for WYSIWYG)  ckeditor_styles             7.x-1.0-alpha1+7-dev  Unchecked  0        0       
  Flex Slider                    flexslider                  7.x-2.0-alpha3+8-dev  Unchecked  0        0       
