@@ -1,4 +1,4 @@
-# Patches Report
+# Patch Report
 
 Patched modules/core that need updates:
 * drupal
