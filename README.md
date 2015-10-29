@@ -1,4 +1,4 @@
 Introduction
 =======
 
-The point of this audit is to identify the areas of the DAFCU site that can improved upon with a focus on performance and security.
+The purpose of this audit is to identify the areas of the Denali Alaska site that can be improved upon. It is focused on performance and security.
