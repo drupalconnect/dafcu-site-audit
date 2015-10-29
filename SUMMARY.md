@@ -11,6 +11,6 @@
    * [Hacked Report](hacked_report.md)
    * [Patches Report](patches_report.md)
    * [Cache Report](cache_report.md)
-   * [Coder Review](coder_review.md)
+   * [Coder Report](coder_review.md)
    * [Security Review](security_review.md)
 
