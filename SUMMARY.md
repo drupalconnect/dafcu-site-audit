@@ -9,6 +9,7 @@
            * [Blocks](blocks_caching.md)
            * [Panels](panels_caching.md)
            * [Caching Back-ends](caching_backends.md)
+               * Redis
        * [Code](code.md)
    * [Security Concerns](security_concerns.md)
        * [Module Updates](module_updates.md)
