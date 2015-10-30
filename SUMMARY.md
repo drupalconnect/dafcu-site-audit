@@ -8,7 +8,7 @@
            * [Views](views_caching.md)
            * [Blocks](blocks_caching.md)
            * [Panels](panels_caching.md)
-           * [Caching Backends](caching_backends.md)
+           * [Caching Back-ends](caching_backends.md)
        * [Code](code.md)
    * [Security Concerns](security_concerns.md)
        * [Module Updates](module_updates.md)
