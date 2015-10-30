@@ -8,7 +8,7 @@ Patched modules/core that need updates:
 
 ---
 
-The files changed per module.
+The files changed per module:
 
 ```
 Details for project: Drupal core
