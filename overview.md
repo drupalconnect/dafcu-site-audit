@@ -1,4 +1,4 @@
-# Overview
+# General
 
 The public files for the site are in "sites/default/files" which is good, but there is a "sites/default/files.old" directory that may be taking up unnecessary disk space.
 
