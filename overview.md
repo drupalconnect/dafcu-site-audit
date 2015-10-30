@@ -1,6 +1,7 @@
 # Overview
 
 From A-Z we've crafted reports to inspect every crevasse of the site. This allows us to:
+
 * Learn about contents and structure
 * Ensure optimal configuration
 * Discover areas of improvement
