@@ -20,6 +20,7 @@
    * [Security Concerns](security_concerns.md)
        * [Module Updates](module_updates.md)
        * [Code](code_security.md)
+       * New Modules
 * [Appendix](appendix.md)
    * [Site Audit Report](site_audit.md)
    * [Update Report](update_report.md)
