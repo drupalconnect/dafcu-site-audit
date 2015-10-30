@@ -5,7 +5,7 @@
 * [Actionable Recommendations](actionable_recommendations.md)
    * [Performance Settings](performance_settings.md)
    * [Security Concerns](security_concerns.md)
-       * Module Updates
+       * [Module Updates](module_updates.md)
 * [Appendix](appendix.md)
    * [Site Audit Report](site_audit.md)
    * [Update Report](update_report.md)
