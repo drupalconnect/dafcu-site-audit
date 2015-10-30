@@ -6,5 +6,5 @@ Drupal core caching methods are all utilized which is good, but the Minimum Cach
 
 * [Views Caching](views_caching.md)
 * [Blocks Caching](blocks_caching.md)
-* [Panels Caching](caching_backends.md)
+* [Panels Caching](panles_caching.md)
 * [Caching Backends](caching_backends.md)
