@@ -1,6 +1,6 @@
 # Appendix
 
-* [Best Practices Report](site_audit.md)
+* [Site Audit Report](site_audit.md)
 * [Update Report](update_report.md)
 * [Hacked Report](hacked_report.md)
 * [Patch Report](patches_report.md)
