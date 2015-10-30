@@ -12,6 +12,7 @@
            * [Caching Back-ends](caching_backends.md)
                * [Redis](redis.md)
                * [Varnish](varnish.md)
+               * Boost
        * [Code](code.md)
        * [CDN](cdn.md)
            * CloudFlare
