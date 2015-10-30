@@ -1,3 +1,3 @@
 # Caching
 
-Views and block caching do not appear to be fully utilized *(expand)*.  Page compression is enabled, but page caching is not enabled.  JavaScript and CSS aggregation and compression are disabled.
+Views and block caching do not appear to be fully utilized *(expand)*. Page compression and caching is enabled. JavaScript and CSS aggregation and compression are enabled.
