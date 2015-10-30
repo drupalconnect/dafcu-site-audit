@@ -13,6 +13,7 @@
                * [Boost](boost.md)
                * [Redis](redis.md)
                * [Varnish](varnish.md)
+           * Recommended Modules
        * [Code](code.md)
        * [CDN](cdn.md)
            * CloudFlare
