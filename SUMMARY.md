@@ -4,7 +4,7 @@
 * [Overview](overview.md)
 * [Actionable Recommendations](actionable_recommendations.md)
    * [Performance Settings](performance_settings.md)
-       * Caching
+       * [Caching](caching.md)
    * [Security Concerns](security_concerns.md)
        * [Module Updates](module_updates.md)
 * [Appendix](appendix.md)
