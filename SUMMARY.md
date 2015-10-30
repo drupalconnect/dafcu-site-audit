@@ -23,7 +23,7 @@
        * [Drupal Patch](drupal_patch.md)
        * [Location Patch](location_patch.md)
        * [Panels Patch](panels_patch.md)
-       * TB Mega Menu Patch
+       * [TB Mega Menu Patch](tb_mega_menu_patch.md)
    * [Cache Report](cache_report.md)
    * [Code Report](coder_review.md)
    * [Security Report](security_review.md)
