@@ -1,3 +1,3 @@
 # Redis
 
-*An explanation of the what Redis is and the benefits.*
+*Will be an explanation of the what Redis is and the benefits.*
