@@ -1,3 +1,3 @@
 # Code
 
-Code optimization can help performance...
+Code optimization can help performance... *(expand)*
