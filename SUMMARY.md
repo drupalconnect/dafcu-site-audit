@@ -15,6 +15,7 @@
        * [Code](code.md)
    * [Security Concerns](security_concerns.md)
        * [Module Updates](module_updates.md)
+       * Code
 * [Appendix](appendix.md)
    * [Site Audit Report](site_audit.md)
    * [Update Report](update_report.md)
