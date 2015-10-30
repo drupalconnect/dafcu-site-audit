@@ -8,6 +8,8 @@ Patched modules/core that need updates:
 
 ---
 
+The files changed per module.
+
 ```
 Details for project: Drupal core
 Total files: 1088, files changed: 2, deleted files: 1
