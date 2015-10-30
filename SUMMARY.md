@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Actionable Recommendations](actionable_recommendations.md)
-   * [Overview](overview.md)
+   * [General](overview.md)
    * [Performance Settings](performance_settings.md)
        * [Caching](caching.md)
        * [Code](code.md)
