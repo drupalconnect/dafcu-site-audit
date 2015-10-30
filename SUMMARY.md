@@ -22,7 +22,7 @@
    * [Patch Report](patches_report.md)
        * [Drupal Patch](drupal_patch.md)
        * [Location Patch](location_patch.md)
-       * Panels Patch
+       * [Panels Patch](panels_patch.md)
    * [Cache Report](cache_report.md)
    * [Code Report](coder_review.md)
    * [Security Report](security_review.md)
