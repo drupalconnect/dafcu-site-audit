@@ -1,6 +1,6 @@
 # Patch Report
 
-Patched modules/core that need updates:
+Core and modules are "patched" and need updates:
 * [drupal](drupal_patch.md)
 * [location](location_patch.md)
 * [panels](panels_patch.md)
