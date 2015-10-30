@@ -6,6 +6,7 @@
    * [General](general.md)
    * [Performance Settings](performance_settings.md)
        * [Recommended Modules](recommended_modules_security.md)
+           * Views Litepager
        * [Caching](caching.md)
            * [Views](views_caching.md)
            * [Blocks](blocks_caching.md)
