@@ -21,6 +21,7 @@
    * [Hacked Report](hacked_report.md)
    * [Patch Report](patches_report.md)
        * [Drupal Patch](drupal_patch.md)
+       * Location Patch
    * [Cache Report](cache_report.md)
    * [Code Report](coder_review.md)
    * [Security Report](security_review.md)
