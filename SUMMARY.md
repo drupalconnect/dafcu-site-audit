@@ -10,9 +10,9 @@
            * [Blocks](blocks_caching.md)
            * [Panels](panels_caching.md)
            * [Caching Back-ends](caching_backends.md)
+               * [Boost](boost.md)
                * [Redis](redis.md)
                * [Varnish](varnish.md)
-               * [Boost](boost.md)
        * [Code](code.md)
        * [CDN](cdn.md)
            * CloudFlare
