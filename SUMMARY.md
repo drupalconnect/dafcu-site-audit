@@ -10,7 +10,7 @@
            * [Panels](panels_caching.md)
            * [Caching Back-ends](caching_backends.md)
                * [Redis](redis.md)
-               * Varnish
+               * [Varnish](varnish.md)
        * [Code](code.md)
    * [Security Concerns](security_concerns.md)
        * [Module Updates](module_updates.md)
