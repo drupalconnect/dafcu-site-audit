@@ -25,7 +25,7 @@
            * [Security Kit](security_kit.md)
        * [Module Updates](module_updates.md)
        * [Code](code_security.md)
-       * Core Updates
+       * [Core Updates](core_updates.md)
 * [Appendix](appendix.md)
    * [Site Audit Report](site_audit.md)
    * [Update Report](update_report.md)
