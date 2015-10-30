@@ -1,2 +1,5 @@
 # Caching Backends
 
+Redis - 
+
+Varnish - 
