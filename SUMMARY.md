@@ -15,6 +15,7 @@
        * [Code](code.md)
        * [CDN](cdn.md)
            * CloudFlare
+           * MaxCDN
    * [Security Concerns](security_concerns.md)
        * [Module Updates](module_updates.md)
        * [Code](code_security.md)
