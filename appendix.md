@@ -1,5 +1,7 @@
 # Appendix
 
+This contains all the reports that informed our recommendations.
+
 * [Site Audit Report](site_audit.md)
 * [Update Report](update_report.md)
 * [Hacked Report](hacked_report.md)
