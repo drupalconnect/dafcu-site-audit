@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [Overview](overview.md)
 * [Actionable Recommendations](actionable_recommendations.md)
+   * [Overview](overview.md)
    * [Performance Settings](performance_settings.md)
        * [Caching](caching.md)
        * [Code](code.md)
