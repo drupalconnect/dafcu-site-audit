@@ -5,7 +5,7 @@
 * [Actionable Recommendations](actionable_recommendations.md)
    * [General](general.md)
    * [Performance Settings](performance_settings.md)
-       * Recommended Modules
+       * [Recommended Modules](recommended_modules_security.md)
        * [Caching](caching.md)
            * [Views](views_caching.md)
            * [Blocks](blocks_caching.md)
