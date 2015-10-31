@@ -1,0 +1,142 @@
+Only in /Users/tommy/devdesktop/dafcu/: .DS_Store
+Only in /Users/tommy/devdesktop/dafcu/: .git
+diff -uprb a/.gitignore b/.gitignore
+--- .gitignore	2015-08-19 15:20:31.000000000 -0600
++++ .gitignore	2015-10-20 15:17:12.000000000 -0600
+@@ -4,3 +4,6 @@ sites/*/settings*.php
+ # Ignore paths that contain user-generated content.
+ sites/*/files
+ sites/*/private
++
++# Update Reports are only needed temporarily
++update_reports
+Only in /Users/tommy/devdesktop/dafcu/: .idea
+Only in /Users/tommy/devdesktop/dafcu/: README.md
+Only in /Users/tommy/devdesktop/dafcu/: favicon.ico
+Only in /Users/tommy/devdesktop/dafcu/: fonts
+Only in /Users/tommy/devdesktop/dafcu/: images
+Only in /Users/tommy/devdesktop/dafcu/includes: .DS_Store
+Only in /Users/tommy/devdesktop/dafcu/: member_form.html
+Only in /Users/tommy/devdesktop/dafcu/: report.sh
+Only in /tmp/drupal7/hacked-cache-tommy/hackedProjectWebFilesDownloader/core/drupal/7.39/drupal-7.39/sites/all/libraries: README.txt
+Only in /Users/tommy/devdesktop/dafcu/sites/all/libraries: ckeditor
+Only in /Users/tommy/devdesktop/dafcu/sites/all/libraries: flexslider
+Only in /Users/tommy/devdesktop/dafcu/sites/all/libraries: jcarousel
+Only in /Users/tommy/devdesktop/dafcu/sites/all/libraries: phpmailer
+Only in /Users/tommy/devdesktop/dafcu/sites/all/libraries: wymeditor
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: add_to_head
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: admin_menu
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: backup_migrate
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: cck_table
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: ckeditor_styles
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: coder
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: ctools
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: denali_custom
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: devel
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: diff
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: field_group
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: flexslider
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: flexslider_views_slideshow
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: formblock
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: geocoder
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: geophp
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: google_analytics
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: google_cse
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: hacked
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: ip_geoloc
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: jcarousel
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: jquery_plugin
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: jquery_update
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: libraries
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: link
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: location
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: media
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: menu_block
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: menu_editor
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: nodereference_count
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: panels
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: panels_page_cache
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: pathauto
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: references
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: rotating_banner
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: seckit
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: security_review
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: simplenews
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: social_media_links
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: special_menu_items
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: tablefield
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: tb_megamenu
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: token
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: unused_modules
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: views
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: views_accordion
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: views_slideshow
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: views_slideshow_jcarousel
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules: wysiwyg
+Only in /Users/tommy/devdesktop/dafcu/sites/all/themes: denali_alaskan
+Only in /Users/tommy/devdesktop/dafcu/sites/all/themes: foundation
+Only in /Users/tommy/devdesktop/dafcu/sites/all/themes: leo
+Only in /Users/tommy/devdesktop/dafcu/sites/all/themes: marinelli
+Only in /Users/tommy/devdesktop/dafcu/sites/all/themes: zurb_foundation
+Only in /Users/tommy/devdesktop/dafcu/sites: dafcu.dd
+diff -uprb a/sites/default/default.settings.php b/sites/default/default.settings.php
+--- sites/default/default.settings.php	2015-08-19 15:20:31.000000000 -0600
++++ sites/default/default.settings.php	2015-10-13 09:44:28.000000000 -0600
+@@ -83,13 +83,11 @@
+  * webserver.  For most other drivers, you must specify a
+  * username, password, host, and database name.
+  *
+- * Transaction support is enabled by default for all drivers that support it,
+- * including MySQL. To explicitly disable it, set the 'transactions' key to
+- * FALSE.
+- * Note that some configurations of MySQL, such as the MyISAM engine, don't
+- * support it and will proceed silently even if enabled. If you experience
+- * transaction related crashes with such configuration, set the 'transactions'
+- * key to FALSE.
++ * Some database engines support transactions.  In order to enable
++ * transaction support for a given database, set the 'transactions' key
++ * to TRUE.  To disable it, set it to FALSE.  Note that the default value
++ * varies by driver.  For MySQL, the default is FALSE since MyISAM tables
++ * do not support transactions.
+  *
+  * For each database, you may optionally specify multiple "target" databases.
+  * A target database allows Drupal to try to send certain queries to a
+@@ -435,18 +433,6 @@ ini_set('session.cookie_lifetime', 20000
+ # $conf['js_gzip_compression'] = FALSE;
+
+ /**
+- * Block caching:
+- *
+- * Block caching may not be compatible with node access modules depending on
+- * how the original block cache policy is defined by the module that provides
+- * the block. By default, Drupal therefore disables block caching when one or
+- * more modules implement hook_node_grants(). If you consider block caching to
+- * be safe on your site and want to bypass this restriction, uncomment the line
+- * below.
+- */
+-# $conf['block_cache_bypass_node_grants'] = TRUE;
+-
+-/**
+  * String overrides:
+  *
+  * To override specific strings on your site with or without enabling the Locale
+@@ -517,10 +503,10 @@ $conf['404_fast_html'] = '<!DOCTYPE html
+  * server response time when loading 404 error pages and prevents the 404 error
+  * from being logged in the Drupal system log. In order to prevent valid pages
+  * such as image styles and other generated content that may match the
+- * '404_fast_paths' regular expression from returning 404 errors, it is
+- * necessary to add them to the '404_fast_paths_exclude' regular expression
+- * above. Make sure that you understand the effects of this feature before
+- * uncommenting the line below.
++ * '404_fast_html' regular expression from returning 404 errors, it is necessary
++ * to add them to the '404_fast_paths_exclude' regular expression above. Make
++ * sure that you understand the effects of this feature before uncommenting the
++ * line below.
+  */
+ # drupal_fast_404();
+
+Only in /Users/tommy/devdesktop/dafcu/sites/default: files
+Only in /Users/tommy/devdesktop/dafcu/sites/default: files.old
+Only in /Users/tommy/devdesktop/dafcu/sites/default: settings.php
+Only in /Users/tommy/devdesktop/dafcu/sites: sites.php
+Only in /Users/tommy/devdesktop/dafcu/: update_reports

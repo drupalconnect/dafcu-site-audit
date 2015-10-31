@@ -1,0 +1,20 @@
+Only in /Users/tommy/devdesktop/dafcu/sites/all/modules/tb_megamenu/templates: tb-megamenu-item.tpl.old.php
+diff -uprb a/templates/tb-megamenu-item.tpl.php b/templates/tb-megamenu-item.tpl.php
+--- templates/tb-megamenu-item.tpl.php	2014-08-15 04:21:38.000000000 -0600
++++ templates/tb-megamenu-item.tpl.php	2015-10-13 09:43:08.000000000 -0600
+@@ -1,4 +1,8 @@
+ <li <?php print $attributes;?> class="<?php print $classes;?>">
++  <?php if ($item['link']['href'] == "<nolink>"): ?>
++  <span class="tb_nolink"><?php print t($item['link']['link_title']);?></span>
++  <?php elseif ($item['link']['href'] == "<separator>"): ?>	<div class="tb_separator"></div>
++  <?php else: ?>
+   <a href="<?php print in_array($item['link']['href'], array('<nolink>')) ? "#" : url($item['link']['href']);?>" class="<?php print implode(" ", $a_classes);?>">
+     <?php if(!empty($item_config['xicon'])) : ?>
+       <i class="<?php print $item_config['xicon'];?>"></i>
+@@ -11,5 +15,6 @@
+       <span class="mega-caption"><?php print t($item_config['caption']);?></span>
+     <?php endif;?>
+   </a>
++  <?php endif;?>
+   <?php print $submenu ? $submenu : "";?>
+ </li>
