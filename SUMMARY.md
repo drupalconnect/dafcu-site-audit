@@ -18,7 +18,7 @@
        * [Code](code.md)
        * [CDN](cdn.md)
            * [CloudFlare](cloudflare.md)
-           * MaxCDN
+           * [MaxCDN](maxcdn.md)
            * Amazon CloudFront
        * [Database](database.md)
    * [Security Concerns](security_concerns.md)
