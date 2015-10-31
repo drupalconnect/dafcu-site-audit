@@ -1,11 +1,13 @@
 # Patch Report
 
-Core and modules that are "patched" and need updates:
+Below are the list of core and contributed modules that have been hacked and also require updates:
 
 * [drupal](drupal_patch.md)
 * [location](location_patch.md)
 * [panels](panels_patch.md)
 * [tb_megamenu](tb_mega_menu_patch.md)
+ 
+The patches are not meant to be applied directly (as file paths will differ) rather they're guidelines to ensure that changes get carried over after updating.
 
 ---
 
