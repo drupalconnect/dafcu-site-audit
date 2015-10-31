@@ -1,2 +1,115 @@
 # Panels Patch
 
+```
+diff -uprb a/plugins/display_renderers/panels_renderer_editor.class.php b/plugins/display_renderers/panels_renderer_editor.class.php
+--- plugins/display_renderers/panels_renderer_editor.class.php	2014-02-12 08:30:08.000000000 -0700
++++ plugins/display_renderers/panels_renderer_editor.class.php	2015-10-13 09:43:04.000000000 -0600
+@@ -1736,13 +1736,13 @@ function panels_edit_configure_pane_css_
+     '#type' => 'textfield',
+     '#default_value' => isset($pane->css['css_id']) ? $pane->css['css_id'] : '',
+     '#title' => t('CSS ID'),
+-    '#description' => t('CSS ID to apply to this pane. This may be blank.'),
++    '#description' => t('CSS ID to apply to this pane. This may be blank. Keywords from context are allowed.'),
+   );
+   $form['css_class'] = array(
+     '#type' => 'textfield',
+     '#default_value' => isset($pane->css['css_class']) ? $pane->css['css_class'] : '',
+     '#title' => t('CSS class'),
+-    '#description' => t('CSS class to apply to this pane. This may be blank.'),
++    '#description' => t('CSS class to apply to this pane. This may be blank. Keywords from context are allowed.'),
+   );
+
+   $form['next'] = array(
+diff -uprb a/plugins/display_renderers/panels_renderer_standard.class.php b/plugins/display_renderers/panels_renderer_standard.class.php
+--- plugins/display_renderers/panels_renderer_standard.class.php	2014-02-12 08:30:08.000000000 -0700
++++ plugins/display_renderers/panels_renderer_standard.class.php	2015-10-13 09:43:04.000000000 -0600
+@@ -572,12 +572,14 @@ class panels_renderer_standard {
+     if (!empty($content)) {
+       // Pass long the css_id that is usually available.
+       if (!empty($pane->css['css_id'])) {
+-        $content->css_id = check_plain($pane->css['css_id']);
++        $id = ctools_context_keyword_substitute($pane->css['css_id'], array(), $this->display->context);
++        $content->css_id = drupal_html_id($id);
+       }
+
+       // Pass long the css_class that is usually available.
+       if (!empty($pane->css['css_class'])) {
+-        $content->css_class = check_plain($pane->css['css_class']);
++        $class = ctools_context_keyword_substitute($pane->css['css_class'], array(), $this->display->context, array('css safe' => TRUE));
++        $content->css_class = check_plain(drupal_strtolower($class));
+       }
+     }
+
+diff -uprb a/plugins/task_handlers/panel_context.inc b/plugins/task_handlers/panel_context.inc
+--- plugins/task_handlers/panel_context.inc	2014-02-12 08:30:08.000000000 -0700
++++ plugins/task_handlers/panel_context.inc	2015-10-13 09:43:04.000000000 -0600
+@@ -286,7 +286,8 @@ function panels_panel_context_render($ha
+
+   $display->context = $contexts;
+   $display->args = $args;
+-  $display->css_id = $handler->conf['css_id'];
++  $page_css_id = ctools_context_keyword_substitute($handler->conf['css_id'], array(), $contexts);
++  $display->css_id = drupal_html_id($page_css_id);
+   $task_name = page_manager_make_task_name($handler->task, $handler->subtask);
+
+   $display->cache_key = panels_panel_context_cache_key($task_name, $handler->name, $args);
+@@ -297,7 +298,9 @@ function panels_panel_context_render($ha
+     $css_id = 'panel_context:' . $handler->name;
+     $filename = ctools_css_retrieve($css_id);
+     if (!$filename) {
+-      $filename = ctools_css_store($css_id, $handler->conf['css']);
++      // Add keywords from context
++      $css = ctools_context_keyword_substitute($handler->conf['css'], array(), $contexts, array('css safe' => TRUE));
++      $filename = ctools_css_store($css_id, $css, FALSE);
+     }
+     drupal_add_css($filename);
+   }
+@@ -318,10 +321,12 @@ function panels_panel_context_render($ha
+   $panel_body_css = &drupal_static('panel_body_css');
+
+   if (isset($handler->conf['body_classes_to_remove']) && !isset($panel_body_css['body_classes_to_remove'])) {
+-    $panel_body_css['body_classes_to_remove'] = $handler->conf['body_classes_to_remove'];
++    $classes = ctools_context_keyword_substitute($handler->conf['body_classes_to_remove'], array(), $contexts, array('css safe' => TRUE));
++    $panel_body_css['body_classes_to_remove'] = check_plain(drupal_strtolower($classes));
+   }
+   if (isset($handler->conf['body_classes_to_add']) && !isset($panel_body_css['body_classes_to_add'])) {
+-    $panel_body_css['body_classes_to_add'] = $handler->conf['body_classes_to_add'];
++    $classes = ctools_context_keyword_substitute($handler->conf['body_classes_to_add'], array(), $contexts, array('css safe' => TRUE));
++    $panel_body_css['body_classes_to_add'] = check_plain(drupal_strtolower($classes));
+   }
+
+   $info = array(
+@@ -765,7 +770,7 @@ function panels_panel_context_edit_setti
+     '#size' => 128,
+     '#default_value' => $conf['body_classes_to_remove'],
+     '#title' => t('Remove body CSS classes'),
+-    '#description' => t('The CSS classes to remove from the body element of this page. Separated by a space. For example: no-sidebars one-sidebar sidebar-first sidebar-second two-sidebars.'),
++    '#description' => t('The CSS classes to remove from the body element of this page. Separated by a space. For example: no-sidebars one-sidebar sidebar-first sidebar-second two-sidebars. Keywords from context are allowed.'),
+   );
+
+   $form['conf']['body_classes_to_add'] = array(
+@@ -773,7 +778,7 @@ function panels_panel_context_edit_setti
+     '#size' => 128,
+     '#default_value' => $conf['body_classes_to_add'],
+     '#title' => t('Add body CSS classes'),
+-    '#description' => t('The CSS classes to add to the body element of this page. Separated by a space. For example: no-sidebars one-sidebar sidebar-first sidebar-second two-sidebars.'),
++    '#description' => t('The CSS classes to add to the body element of this page. Separated by a space. For example: no-sidebars one-sidebar sidebar-first sidebar-second two-sidebars. Keywords from context are allowed.'),
+   );
+
+   ctools_include('plugins', 'panels');
+@@ -813,13 +818,13 @@ function panels_panel_context_edit_setti
+     '#size' => 35,
+     '#default_value' => $conf['css_id'],
+     '#title' => t('CSS ID'),
+-    '#description' => t('The CSS ID to apply to this page'),
++    '#description' => t('The CSS ID to apply to this page. Keywords from context are allowed.'),
+   );
+
+   $form['conf']['css'] = array(
+     '#type' => 'textarea',
+     '#title' => t('CSS code'),
+-    '#description' => t('Enter well-formed CSS code here; this code will be embedded into the page, and should only be used for minor adjustments; it is usually better to try to put CSS for the page into the theme if possible. This CSS will be filtered for safety so some CSS may not work.'),
++    '#description' => t('Enter well-formed CSS code here; this code will be embedded into the page, and should only be used for minor adjustments; it is usually better to try to put CSS for the page into the theme if possible. This CSS will be filtered for safety so some CSS may not work. Keywords from context are allowed.'),
+     '#default_value' => $conf['css'],
+   );
+```
