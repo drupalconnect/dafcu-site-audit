@@ -1,3 +1,3 @@
-# Caching Backends
+# Caching Alterntives
 
 * [Boost](boost.md)
