@@ -29,6 +29,7 @@
        * [Code](code_security.md)
        * [Core Updates](core_updates.md)
 * [Down-the-road Recommendations](down-the-road_recommendations.md)
+   * Caching
 * [Appendix](appendix.md)
    * [Site Audit Report](site_audit.md)
    * [Update Report](update_report.md)
