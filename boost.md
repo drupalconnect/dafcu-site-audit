@@ -1,7 +1,7 @@
 # Boost
 
-From the drupal.org project page:
+Implement a [Crawl, Boost, Expire](http://www.vacilando.org/article/drupal-performance-mantra-crawl-boost-expire) mantra.
 
->Boost provides static page caching for Drupal enabling a very significant performance and scalability boost for sites that receive mostly anonymous traffic. For shared hosting this is your best option in terms of improving performance. On dedicated servers, you may want to consider Varnish instead.
-
-* http://drupal.org/project/boost
+* https://www.drupal.org/project/httprl
+* https://www.drupal.org/project/boost
+* https://www.drupal.org/project/expire
