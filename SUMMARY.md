@@ -20,6 +20,7 @@
            * CloudFlare
            * MaxCDN
            * Amazon CloudFront
+       * Database
    * [Security Concerns](security_concerns.md)
        * [Recommended Modules](recommended_modules.md)
            * [Security Kit](security_kit.md)
