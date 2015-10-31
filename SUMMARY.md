@@ -13,7 +13,6 @@
            * [Panels](panels_caching.md)
            * [Caching Back-ends](caching_backends.md)
                * [Boost](boost.md)
-               * [Redis](redis.md)
                * [Varnish](varnish.md)
            * Recommended Modules
        * [Code](code.md)
@@ -30,6 +29,7 @@
        * [Core Updates](core_updates.md)
 * [Down-the-road Recommendations](down-the-road_recommendations.md)
    * [Caching](caching_down_the_road.md)
+* [Redis](redis.md)
 * [Appendix](appendix.md)
    * [Site Audit Report](site_audit.md)
    * [Update Report](update_report.md)
