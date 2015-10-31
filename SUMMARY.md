@@ -7,6 +7,7 @@
        * [Recommended Modules](recommended_modules_performance.md)
            * [Views Litepager](views_litepager.md)
            * [CDN](cdn_module.md)
+           * Advanced CSS/JS Aggregation
        * [Caching](caching.md)
            * [Views](views_caching.md)
            * [Blocks](blocks_caching.md)
