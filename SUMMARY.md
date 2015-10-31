@@ -28,8 +28,8 @@
        * [Code](code_security.md)
        * [Core Updates](core_updates.md)
 * [Down-the-road Recommendations](down-the-road_recommendations.md)
-   * [Redis](redis.md)
    * [Caching](caching_down_the_road.md)
+       * [Redis](redis.md)
        * empty
 * [Appendix](appendix.md)
    * [Site Audit Report](site_audit.md)
