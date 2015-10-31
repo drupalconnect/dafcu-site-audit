@@ -13,7 +13,6 @@
            * [Panels](panels_caching.md)
            * [Caching Back-ends](caching_backends.md)
                * [Boost](boost.md)
-           * Recommended Modules
        * [Code](code.md)
        * [CDN](cdn.md)
            * [CloudFlare](cloudflare.md)
