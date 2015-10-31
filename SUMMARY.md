@@ -17,7 +17,7 @@
            * Recommended Modules
        * [Code](code.md)
        * [CDN](cdn.md)
-           * CloudFlare
+           * [CloudFlare](cloudflare.md)
            * MaxCDN
            * Amazon CloudFront
        * [Database](database.md)
