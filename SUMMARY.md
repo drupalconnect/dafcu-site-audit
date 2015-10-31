@@ -30,7 +30,6 @@
 * [Down-the-road Recommendations](down-the-road_recommendations.md)
    * [Caching](caching_down_the_road.md)
        * [Redis](redis.md)
-       * empty
 * [Appendix](appendix.md)
    * [Site Audit Report](site_audit.md)
    * [Update Report](update_report.md)
