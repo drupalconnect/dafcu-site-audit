@@ -28,6 +28,7 @@
        * [Module Updates](module_updates.md)
        * [Code](code_security.md)
        * [Core Updates](core_updates.md)
+* Down-the-road Recommendations
 * [Appendix](appendix.md)
    * [Site Audit Report](site_audit.md)
    * [Update Report](update_report.md)
@@ -41,5 +42,4 @@
    * [Code Report](coder_review.md)
    * [Security Report](security_review.md)
    * [Unused Modules Report](unused_modules_report.md)
-* Down-the-road Recommendations
 
