@@ -1,12 +1,15 @@
 # Patch Report
 
-Patched modules/core that need updates:
-* drupal
-* location
-* panels
-* tb_megamenu
+Core and modules that are "patched" and need updates:
+
+* [drupal](drupal_patch.md)
+* [location](location_patch.md)
+* [panels](panels_patch.md)
+* [tb_megamenu](tb_mega_menu_patch.md)
 
 ---
+
+The files changed per module:
 
 ```
 Details for project: Drupal core

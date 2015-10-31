@@ -1,7 +1,7 @@
 # Unused Modules Report
 
 |Project|Project has Enabled Modules|Project Path|
-|---|---|---|
+|---|
 |devel|No|sites/all/modules/devel|
 |google_cse|No|sites/all/modules/google_cse|
 |jcarousel|No|sites/all/modules/jcarousel|

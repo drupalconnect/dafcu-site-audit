@@ -1,7 +1,9 @@
 # Overview
 
-The modules, themes and libraries are in "sites/all". The public files for the site are in "sites/default/files", although there is a "sites/default/files.old" directory that may be taking up unnecessary disk space.
+From A-Z we've [crafted reports](appendix.md) to inspect every crevasse of the site. This allows us to:
 
-Drupal core for this site is a couple versions behind and should be updated to the latest version. The most recent release is 7.41 (which will change) and should be applied to maintain a secure site.
+* Learn about contents and structure
+* Ensure optimal configuration
+* Discover areas of improvement
 
-Out-of-date modules should also be updated (see [Update Report](update_report.md)). Any patches will need to be reapplied, of course, as needed (see [Patches Report](patches_report.md).
+We use this data a great deal in our recommendations. These reports entail a few different aspects of Drupal: general best practices, performance, and security. The digested suggestions from this data can be found in [Actionable Recommendations](actionable_recommendations.md).
