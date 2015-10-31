@@ -11,7 +11,7 @@
            * [Views](views_caching.md)
            * [Blocks](blocks_caching.md)
            * [Panels](panels_caching.md)
-           * [Caching Back-ends](caching_backends.md)
+           * [Caching Alternatives](caching_backends.md)
                * [Boost](boost.md)
        * [Code](code.md)
        * [CDN](cdn.md)
