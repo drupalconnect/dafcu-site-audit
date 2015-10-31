@@ -7,7 +7,7 @@ Below are the list of core and contributed modules that have been hacked and als
 * [panels](panels_patch.md)
 * [tb_megamenu](tb_mega_menu_patch.md)
  
-The above patches are not meant to be applied directly (as file paths will differ) rather they're guidelines to ensure that changes get carried over after updating.
+The above patches are not meant to be applied directly (as file paths will differ), rather they're guidelines to ensure that changes get carried over after updating.
 
 ---
 
