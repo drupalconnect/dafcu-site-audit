@@ -4,6 +4,6 @@
 
 * The Drupal module allows for a user-friendly integration to Drupal requiring minimum system administration skills.
 
-* Can also be used as a round-robin load balancer that directs traffic to proxy servers when volume grows beyond what one server can handle. This ensures that your site is always responding.
+* Varnish can also improve the availability of your site. For example, if a PHP fatal error breaks your site, anonymous page requests can still be served by Varnish and end-users won't realize anything is wrong.
 
 * http://drupal.org/project/varnish
