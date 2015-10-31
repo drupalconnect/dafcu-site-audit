@@ -1,5 +1,7 @@
 # Redis
 
-*Will be an explanation of the what Redis is and its benefits.*
+From the drupal.org project page:
+
+
 
 * http://drupal.org/project/redis
