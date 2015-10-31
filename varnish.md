@@ -4,6 +4,6 @@
 
 * The Drupal module allows for a user-friendly integration to Drupal requiring minimum system administration skills.
 
-* Varnish can also improve the availability of your site. For example, if a PHP fatal error breaks your site, anonymous page requests can still be served by Varnish and end-users won't realize anything is wrong.
+Varnish can also improve the availability of your site. For example, if a PHP fatal error breaks your site, anonymous page requests can still be served by Varnish and end-users won't realize anything is wrong.
 
 * http://drupal.org/project/varnish
