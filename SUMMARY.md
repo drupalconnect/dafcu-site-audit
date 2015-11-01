@@ -3,6 +3,7 @@
 * [Introduction](README.md)
    * [Overview](overview.md)
 * [Actionable Recommendations](actionable_recommendations.md)
+   * General
    * [Performance Settings](performance_settings.md)
        * [Recommended Modules](recommended_modules_performance.md)
            * [Views Litepager](views_litepager.md)
@@ -26,7 +27,6 @@
        * [Module Updates](module_updates.md)
        * [Code](code_security.md)
        * [Core Updates](core_updates.md)
-   * General
 * [Eventual Recommendations](down-the-road_recommendations.md)
    * [Caching](caching_down_the_road.md)
        * [Redis](redis.md)
