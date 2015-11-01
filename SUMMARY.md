@@ -6,6 +6,7 @@
    * [General](general.md)
        * [Best Practices](best_practices.md)
        * [Drupal Caching](drupal_caching.md)
+       * Content
    * [Performance Settings](performance_settings.md)
        * [Recommended Modules](recommended_modules_performance.md)
            * [Views Litepager](views_litepager.md)
