@@ -1,2 +1,3 @@
 # Extensions
 
+<div class="panel panel-warning"><div class="panel-heading"><strong>Disabled modules</strong><small> - Detect modules that have been disabled, but have not been uninstalled.</small></div><p class="comments-section">The following modules have been disabled, but have not yet been uninstalled: blog, book, bulk_export, comment, ctools_access_ruleset, ctools_ajax_sample, ctools_custom_content, devel, field_ui, forum, google_cse, jcarousel, openid, overlay, panels_page_cache, poll, simplenews, stylizer, term_depth, toolbar, tracker, views_slideshow_jcarousel, views_ui</p><div class="well well-small">Uninstall unused modules; if not in core, remove them from the codebase after uninstalling.</div></div>
