@@ -1,2 +1,3 @@
 # Drupal Caching
 
+<div class="panel panel-warning"><div class="panel-heading"><strong>Minimum cache lifetime</strong><small> - Verify that Drupal's minimum cache lifetime is set to never expire.</small></div><p class="comments-section">Minimum cache lifetime is set to 5 min.</p><div class="well well-small">Go to /admin/config/development/performance and set "Minimum cache lifetime" to none.</div></div>
