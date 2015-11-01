@@ -3,7 +3,7 @@
 * [Introduction](README.md)
    * [Overview](overview.md)
 * [Actionable Recommendations](actionable_recommendations.md)
-   * General
+   * [General](general.md)
    * [Performance Settings](performance_settings.md)
        * [Recommended Modules](recommended_modules_performance.md)
            * [Views Litepager](views_litepager.md)
