@@ -5,7 +5,7 @@
 * [Actionable Recommendations](actionable_recommendations.md)
    * [General](general.md)
        * [Best Practices](best_practices.md)
-       * Drupal Caching
+       * [Drupal Caching](drupal_caching.md)
    * [Performance Settings](performance_settings.md)
        * [Recommended Modules](recommended_modules_performance.md)
            * [Views Litepager](views_litepager.md)
