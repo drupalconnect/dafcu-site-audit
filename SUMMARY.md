@@ -4,6 +4,7 @@
    * [Overview](overview.md)
 * [Actionable Recommendations](actionable_recommendations.md)
    * [General](general.md)
+       * Best Practices
    * [Performance Settings](performance_settings.md)
        * [Recommended Modules](recommended_modules_performance.md)
            * [Views Litepager](views_litepager.md)
