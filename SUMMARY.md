@@ -31,6 +31,7 @@
        * [Module Updates](module_updates.md)
        * [Code](code_security.md)
        * [Core Updates](core_updates.md)
+       * Drupal base URL
 * [Eventual Recommendations](down-the-road_recommendations.md)
    * [Caching](caching_down_the_road.md)
        * [Redis](redis.md)
