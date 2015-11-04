@@ -32,6 +32,7 @@
        * [Code](code_security.md)
        * [Core Updates](core_updates.md)
        * [Drupal base URL](drupal_base_url.md)
+       * Dangerous tags in content
 * [Eventual Recommendations](down-the-road_recommendations.md)
    * [Caching](caching_down_the_road.md)
        * [Redis](redis.md)
