@@ -24,7 +24,6 @@
            * [CloudFlare](cloudflare.md)
            * [MaxCDN](maxcdn.md)
            * [Amazon CloudFront](amazon_cloudfront.md)
-       * [Database](database.md)
    * [Security Concerns](security_concerns.md)
        * [Recommended Modules](recommended_modules.md)
            * [Security Kit](security_kit.md)
