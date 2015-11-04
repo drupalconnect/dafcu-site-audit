@@ -10,7 +10,6 @@
        * [Extensions](extensions.md)
    * [Performance Settings](performance_settings.md)
        * [Recommended Modules](recommended_modules_performance.md)
-           * [Views Litepager](views_litepager.md)
            * [CDN](cdn_module.md)
            * [Advanced CSS/JS Aggregation](advagg.md)
        * [Caching](caching.md)
