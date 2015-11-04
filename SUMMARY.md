@@ -19,7 +19,6 @@
            * [Panels](panels_caching.md)
            * [Caching Alternatives](caching_backends.md)
                * [Boost](boost.md)
-       * [Code](code.md)
        * [CDN](cdn.md)
            * [CloudFlare](cloudflare.md)
            * [MaxCDN](maxcdn.md)
