@@ -4,3 +4,5 @@ As the Views module is the most popular contributed module, most of us are using
 
 * Time-based caching for each view display (ships with Views)
 * [Views Content Cache](https://drupal.org/project/views_content_cache): Update each view only when its constituent element have been updated.
+* 
+I don't see a need for the latter in this case, so we'll suggest simple time-based views caching.
