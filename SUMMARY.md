@@ -15,7 +15,6 @@
            * [Advanced CSS/JS Aggregation](advagg.md)
        * [Caching](caching.md)
            * [Views](views_caching.md)
-           * [Blocks](blocks_caching.md)
            * [Panels](panels_caching.md)
        * [Back-end Caching Alternatives](caching_backends.md)
            * [Boost](boost.md)
