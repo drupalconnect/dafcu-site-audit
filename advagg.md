@@ -4,4 +4,4 @@ AdvAgg allows you to improve the front-end performance of your site. Be sure to 
 
 https://www.drupal.org/project/advagg
 
-*Todo: Include configuration instructions*
+OSTraining has a great two video series on [How to Use AdvAgg](https://www.ostraining.com/blog/drupal/advagg/)
