@@ -4,4 +4,4 @@ Goal: Improve performance to improve overal user satisfaction, this results in m
 
 * [Recommended Modules](recommended_modules_performance.md)
 * [Caching](caching.md)
-* [CDN](CDN.md)
+* [CDN](cdn.md)
