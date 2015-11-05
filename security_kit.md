@@ -1,3 +1,3 @@
 # Security Kit
 
-*Tuning instructions here*
+https://www.drupal.org/project/seckit
