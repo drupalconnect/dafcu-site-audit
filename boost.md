@@ -5,5 +5,3 @@ Implement a [Crawl, Boost, Expire](http://www.vacilando.org/article/drupal-perfo
 * https://www.drupal.org/project/httprl
 * https://www.drupal.org/project/boost
 * https://www.drupal.org/project/expire
-
-*Todo: Include configuration instructions*
